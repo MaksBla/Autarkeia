@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgraund"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="360dp"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="26dp"
+        app:srcCompat="@drawable/aadvance" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/RLButton"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvQuotes"
+                style="@style/TextQuotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:text="@string/in7"
+                android:textColor="@color/textQuotes" />
+
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Сам сусам"
+                android:textColor="@color/textQuitesAuthor"
+                android:textSize="40dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RLButton"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_centerInParent = "true">
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/start"
+            android:textAllCaps="false"
+            android:layout_centerInParent = "true"
+            android:onClick="buttonStart"/>
+
+        <Button
+            android:id="@+id/btSled"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_above="@+id/buttonStart"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false"
+            android:layout_marginStart="107dp"
+            android:layout_marginEnd="98dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/sled"
+            android:layout_centerInParent = "true"
+            android:onClick="sled"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

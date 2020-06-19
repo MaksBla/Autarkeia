@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgraund"
+    tools:context=".IntroductionActivity">
+
+    <ScrollView
+        android:id="@+id/scrolintroduction"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="315dp"
+                android:layout_height="117dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="48dp"
+                app:srcCompat="@drawable/iintroduction" />
+
+            <TextView
+                android:id="@+id/textViewIntro"
+                style="@style/textIntro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/gradieanttaxt"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="15dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:text="@string/intro1"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+
+
+            <Button
+                android:id="@+id/buttonss"
+                android:layout_width="286dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pplungecon" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

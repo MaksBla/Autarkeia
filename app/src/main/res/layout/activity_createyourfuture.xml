@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createyourfuture"
+    android:background="@color/backgraund">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/TextQuotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="5dp"
+                android:text=" Первым делом необходимо найти тех, кто будет вас поддерживать, ту среду, которая поможет вам творить своё будущее. "
+                android:textColor="@color/textQuotes" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/bbung" />
+
+            <TextView
+                android:id="@+id/textViewOg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:text="Пересмотрите свои взгляды"
+                android:textColor="@color/textQuitesAuthor"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                style="@style/TextQuotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="5dp"
+                android:text=" Прямо сейчас запишите все, что останавливает вас на пути к мечте. Абсолютно нормально бояться худшего или предполагать, что проблемы серьезнее, чем на самом деле. "
+                android:textColor="@color/textQuotes" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextViewT1"
+                android:layout_width="match_parent"
+                android:layout_height="129dp"
+                android:backgroundTint="@color/GlavText3"  />
+
+            <TextView
+            android:id="@+id/textView13"
+            style="@style/TextQuotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="5dp"
+            android:text="  Когда запишете, попытайтесь пересмотреть свой взгляд на эти негативные факторы и посмотреть на них позитивно. Например, если вас уволили, считайте, что таким образом вам подарили свободу и возможность найти что-то лучшее. "
+            android:textColor="@color/textQuotes" />
+
+            <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextViewT2"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:backgroundTint="@color/GlavText9"  />
+
+
+
+            <Button
+                android:id="@+id/buttonEndTask"
+                android:background="@drawable/eend"
+                android:layout_marginTop="40dp"
+                android:layout_width="206dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_centerInParent = "true"
+
+              />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

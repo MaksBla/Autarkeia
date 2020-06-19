@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/backgraund</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+<style name="TextViewGlav">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">24sp</item>
+    <item name="android:gravity">start</item>
+    <item name="android:layout_centerHorizontal">false</item>
+    <item name="android:layout_centerVertical">true</item>
+    <item name="android:layout_marginEnd">0dp</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">2</item>
+    <item name="android:shadowDy">2</item>
+    <item name="android:shadowRadius">5</item>
+</style>
+
+    <style name="TextMainGlav">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#F5F5F5</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">0dp</item>
+
+    </style>
+
+
+    <style name="ButtonGlav">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:background">@drawable/bbutonglav</item>
+    </style>
+
+    <style name="ButtonGlavasprac">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:background">@drawable/bbutonglavaspractika</item>
+    </style>
+
+    <style name="textIntro">
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    
+    
+    <style name="TextQuotes">
+
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/gradieanttaxt</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/textQuotes</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:maxWidth">750dp</item>
+
+
+    </style>
+
+</resources>

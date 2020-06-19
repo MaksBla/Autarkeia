@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/backgraund"
+    tools:context=".MainContents">
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="25dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/bbarbutton"
+        android:onClick="ShowPopup" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="315dp"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ccontenticon" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:fadingEdge="vertical"
+        android:scrollbarSize="0dp">
+
+        <LinearLayout
+            android:id="@+id/contGlav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="117dp"
+            android:background="@drawable/gradieanttaxt"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="50dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="250dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textVieer"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavOne"
+                    android:paddingLeft="5dp"
+                    android:text="1. Ни о чем не жалей " />
+
+                <Button
+                    android:id="@+id/btnGlavOne"
+                    style="@style/ButtonGlavasprac"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavTwo"
+                    android:paddingLeft="5dp"
+                    android:text="2. Следуй за мечтой " />
+
+                <Button
+                    android:id="@+id/btnGlavTwo"
+                    style="@style/ButtonGlav"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavWhre"
+                    android:paddingLeft="5dp"
+                    android:text="3. Создавай своё будущее" />
+
+                <Button
+                    android:id="@+id/btnGlavWhre"
+                    style="@style/ButtonGlavasprac"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavFo"
+                    android:paddingLeft="5dp"
+                    android:text="4. Эмоциональный интеллект" />
+
+                <Button
+                    android:id="@+id/btnGlavFo"
+                    style="@style/ButtonGlav"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavFive"
+                    android:paddingLeft="5dp"
+                    android:text="5. Поступай наоборот" />
+
+                <Button
+                    android:id="@+id/btnGlavFive"
+                    style="@style/ButtonGlav"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavSixe"
+                    android:paddingLeft="5dp"
+                    android:text="6. Узнавай себя" />
+
+                <Button
+                    android:id="@+id/btnGlavSixe"
+                    style="@style/ButtonGlav"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavSevan"
+                    android:paddingLeft="5dp"
+                    android:text="7. Не бойся становиться старше" />
+
+                <Button
+                    android:id="@+id/btnGlavSevan"
+                    style="@style/ButtonGlav"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavNait"
+                    android:paddingLeft="5dp"
+                    android:text="8. Выйди из зоны комфорта" />
+
+                <Button
+                    android:id="@+id/btnGlavNait"
+                    style="@style/ButtonGlav"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavAet"
+                    android:paddingLeft="5dp"
+                    android:text="9. Цени своих близких" />
+
+                <Button
+                    android:id="@+id/btnGlavAet"
+                    style="@style/ButtonGlav"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavTean"
+                    android:paddingLeft="5dp"
+                    android:text="10. Принимайте себя таким, какой вы есть" />
+
+                <Button
+                    android:id="@+id/btnGlavTean"
+                    style="@style/ButtonGlav"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlavOneS"
+                    android:paddingLeft="5dp"
+                    android:text="11. Высыпайся" />
+
+                <Button
+                    android:id="@+id/btnGlavOneS"
+                    style="@style/ButtonGlav"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlav12"
+                    android:paddingLeft="5dp"
+                    android:text="12. Будьте великодушным" />
+
+                <Button
+                    android:id="@+id/btnGlav12"
+                    style="@style/ButtonGlavasprac"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    style="@style/TextViewGlav"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@+id/btnGlav13"
+                    android:paddingLeft="5dp"
+                    android:text="13. Питайтесь правильно" />
+
+                <Button
+                    android:id="@+id/btnGlav13"
+                    style="@style/ButtonGlav"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

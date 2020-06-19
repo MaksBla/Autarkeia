@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donotregretaboutanything"
+    android:background="@color/backgraund">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewOdl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/textQuitesAuthor"
+                android:textSize="40dp"
+                android:text="Чем вы на самом деле хотите заниматься?" />
+
+            <TextView
+                android:id="@+id/textViewMaing1"
+                style="@style/TextQuotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="5dp"
+                android:text="Есть ли что-то, чем вы всегда хотели заниматься для себя или кого-то, но так и не занялись? опишите это ниже.."
+                android:textColor="@color/textQuotes" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextViewDream"
+                android:layout_width="match_parent"
+                android:layout_height="129dp"
+                android:backgroundTint="@color/GlavText3" />
+
+            <TextView
+                android:id="@+id/textView12"
+                style="@style/TextQuotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="5dp"
+                android:text="В течение ближайщих дней, посторайтесть воплотить это в жизнь, после, того как вам придет уведомление, возвращайтесь и напишите, что вам создавало помеху "
+                android:textColor="@color/textQuotes" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextViewDef"
+                android:layout_width="match_parent"
+                android:layout_height="129dp"
+                android:backgroundTint="@color/GlavText9" />
+
+            <TextView
+                android:id="@+id/textView13"
+                style="@style/TextQuotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="5dp"
+                android:text="Теперь необходимо решить описанную задачу в течение ближайщих дней. Когда вы решите все здачи, которые стоят между вами и ващей целью, беритесь за новую.
+                А если вы все еще не достигли поставленной в начале цели, и перед вами встала следующая задача, то повторяей данную процедуру, пока не добьетесь своего."
+                android:textColor="@color/textQuotes" />
+
+            <Button
+                android:id="@+id/buttonEndG1"
+                android:background="@drawable/eend"
+                android:layout_marginTop="40dp"
+                android:layout_width="206dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_centerInParent = "true"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    
+    <color name="persic">#FFB873</color>
+    <color name="fiolet">#AC3BD4</color>
+    <color name="backgraund">#047C98</color>
+    <color name="textQuotes">#292B2C</color>
+    <color name="textQuitesAuthor">#B3E0EB</color>
+
+    <color name="GlavTextFon">#D5B59C</color>
+    <color name="GlavText">#206676</color>
+
+    <color name="GlavText1">#FDB575</color>
+    <color name="GlavText2">#F5A87F</color>
+    <color name="GlavText3">#ED9C89</color>
+    <color name="GlavText4">#E59191</color>
+    <color name="GlavText5">#DE859B</color>
+    <color name="GlavText6">#D579A4</color>
+    <color name="GlavText7">#CE6DAC</color>
+    <color name="GlavText8">#C663B5</color>
+    <color name="GlavText9">#BF57BF</color>
+    <color name="GlavText10">#B64BC7</color>
+    <color name="GlavText11">#AE3ED1</color>
+</resources>

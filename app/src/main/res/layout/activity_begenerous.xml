@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".begenerous"
+    android:background="@color/backgraund">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvG3V1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/textQuitesAuthor"
+                android:textSize="40dp"
+                android:text="Начните с малого"/>
+
+            <TextView
+                style="@style/TextQuotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="5dp"
+                android:text="Найдите способ проявлять щедрость и великодушие. Отвлекайтесь от себя, своих дел ради чего-то, пусть даже незначительного, но, как может оказаться, более важного, чем вы предполагали."
+                android:textColor="@color/textQuotes" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Уступите место в метро или автобусе."
+                android:textColor="@color/textQuitesAuthor"
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Позвоните дорогому человеку и скажите, что организовали интересную прогулочку на выходные( только не забудьте на самом деле ее организовать!)"
+                android:textColor="@color/textQuitesAuthor"
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Помочь соседям"
+                android:textColor="@color/textQuitesAuthor"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Уделите свое рабочее время близкому человеку"
+                android:textColor="@color/textQuitesAuthor"
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Узнайте, когда у коллеги день рождения, и удивите его поздравление-сюрпризом"
+                android:textColor="@color/textQuitesAuthor"
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/tvG3V2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/textQuitesAuthor"
+
+                android:textSize="40dp"
+                android:text="Обращайте внимание на чье-то великодушие"/>
+
+            <TextView
+                style="@style/TextQuotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="5dp"
+                android:text="Когда кто-то проявляет щедрость и великодушие бескорыстно, не пытаясь получить что-то в ответ, будьте готовы его поблагодарить. Можете просто подойти и сказать спасибо. А можете выразить благодарность публично, назвав имя этого человека, или, если он того не хочет, безымянно. Иногда я размещаю в социальных сетях такие, например, комментарии: «Сегодня владелец кофейни в центре города бесплатно предложил кофе и крендели паре бездомных. Замечательный поступок!»"
+                android:textColor="@color/textQuotes" />
+
+            <TextView
+                android:id="@+id/tvG3V3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Ваша задача – поделиться примерами проявления великодушия, которые вы сегодня наблюдали."
+                android:textColor="@color/textQuitesAuthor"
+                android:textSize="40dp" />
+
+            <Button
+                android:id="@+id/buttonEndG3"
+                android:background="@drawable/eend"
+                android:layout_marginTop="40dp"
+                android:layout_width="206dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_centerInParent = "true"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
