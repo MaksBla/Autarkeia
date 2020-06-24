@@ -17,8 +17,9 @@ public class Adapter extends PagerAdapter {
     private List<Model> models;
     private LayoutInflater layoutInflater;
     private Context context;
-
+    //работа с картами
     public Adapter(List<Model> models, Context context) {
+
         this.models = models;
         this.context = context;
     }
