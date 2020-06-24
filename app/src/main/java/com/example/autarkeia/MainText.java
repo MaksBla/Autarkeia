@@ -129,7 +129,7 @@ public class MainText extends AppCompatActivity implements
         viewPager = findViewById(R.id.viewPager);
         viewPager.setAdapter(adapter);
         viewPager.setPadding(50, 50, 50, 0);
-
+//работа с фоном
         Integer[] colors_temp = {
                 getResources().getColor(R.color.GlavText1),
                 getResources().getColor(R.color.GlavText2),
